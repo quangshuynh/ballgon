@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ballgon/static/css/main.f855e6bc.css",
+    "main.js": "/ballgon/static/js/main.f364000a.js",
+    "static/js/453.c159bd2e.chunk.js": "/ballgon/static/js/453.c159bd2e.chunk.js",
+    "index.html": "/ballgon/index.html",
+    "main.f855e6bc.css.map": "/ballgon/static/css/main.f855e6bc.css.map",
+    "main.f364000a.js.map": "/ballgon/static/js/main.f364000a.js.map",
+    "453.c159bd2e.chunk.js.map": "/ballgon/static/js/453.c159bd2e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.f364000a.js"
+  ]
+}
