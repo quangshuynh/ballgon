@@ -86,6 +86,14 @@ function generatePolygonName(n) {
   return `${n}-gon`;
 }
 
+function getRandomPositionInsidePolygon(centerX, centerY, sides, R, ballRadius) {
+  const incircleRadius = R * Math.cos(Math.PI / sides);
+  const safeRadius = Math.max(0, incircleRadius - ballRadius);
+  const r = Math.random() * safeRadius;
+  const angle = Math.random() * 2 * Math.PI;
+  return { x: centerX + r * Math.cos(angle), y: centerY + r * Math.sin(angle) };
+}
+
 function App() {
   return (
     <div className="App">
